@@ -1,0 +1,133 @@
+/* default stylings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+/* ------------------------------------------------------ */
+/* Styling for Forms */
+@import url("https://fonts.googleapis.com/css?family=Poppins:600 | Roboto : 400 , 500");
+.web-1366-3 {
+    align-items : flex-start ;
+    background-color : var ( -- white ) ;
+}
+
+.hidden , .hidden *{
+    pointer-events : none;
+    visibility : hidden;
+    display : flex;
+    height : 1494px;
+    min-width : 1366px;
+    overflow-x : hidden;
+}
+
+.flex-col {
+    align-items : flex-start;
+    display : flex;
+    flex-direction : column;
+    margin-left : 41px;
+    margin-top : 55px;
+    min-height : 673px;
+    width : 448px;
+}
+
+.icon-awesome-home {
+    height : 38px;
+    margin-left : 17.4px;
+    width : 49px;
+}
+
+.rectangle-23 video {
+    height : 100%;
+    object-fit : cover;
+    width : 100%;
+}
+
+.rectangle-23 {
+    height : 561px;
+}
+
+.flex-col-1 {
+    align-items : center;
+    display : flex;
+    margin-top : 74px;
+    width : 448px;
+    flex-direction : column;
+    margin-left : 9px;
+    margin-top : -218px;
+    min-height : 1488px;
+    width : 975px;
+}
+
+.overlap-group {
+    border-radius : 9px;
+    height : 68px;
+    margin-right : 54px;
+    margin-top : 12px;
+    position : relative;
+    width : 601px;
+}
+
+.x-4 {
+    background-color : transparent;
+    border : 0;
+    display : block;
+    height : 33px;
+    left : 34px;
+    letter-spacing : 0;
+    line-height : 22px;
+    opacity : 0;
+    padding : 0;
+    position : absolute;
+    top : 19px;
+    transform : translate(0 , 25px) ;
+    white-space : nowrap;
+    width : 384px;
+}
+
+.x-4.bp1-animate-enter14 {
+    animation : bp1-animate-enter14-frames 2s ease 0.5s 1 normal forwards;
+    display : block;
+    opacity : 0;
+    transform : translate(0 , 25px) ;
+}
+
+.x-4::placeholder {
+    color : #7676767d;
+}
+
+input:focus {
+    outline : none ;
+}
+
+.rectangle-29 {
+    background-color : var(--white ) ;
+    border : 1px solid;
+    /* need to be check */
+    border-color : var (--dove - gray) ;
+    border-radius : 9px;
+    height : 68px;
+    left : 0;
+    opacity : 0;
+    position : absolute;
+    top : 0;
+    transform : translate(0 , 25px);
+    width : 601px;
+}
+
+.rectangle-29.bp1-animate-enter13 {
+    animation : bp1-animate-enter13-frames 2s ease 0.5s 1 normal forwards;
+    opacity : 0;
+    transform : translate(0 , 25px) ;
+}
+
+.drop-down-filled-dis {
+    align-self : flex-start;
+    border : 0px solid ;
+    border-color : transparent;
+    height : 56px;
+    margin-left : 163px;
+    margin-top : 24px;
+}
